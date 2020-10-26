@@ -2,7 +2,8 @@ package mypack.sub;
 
 public class NewClass {
 
-    public void m1() {
-        System.out.println("this is trivial m1");
+    public boolean m1(int i) {
+        System.out.println("this is merged m1");
+        return 0<=i&& i<=9;
     }
 }
