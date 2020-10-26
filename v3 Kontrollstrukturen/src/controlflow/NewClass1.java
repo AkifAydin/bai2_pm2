@@ -1,8 +1,10 @@
 package controlflow;
 
-public class NewClass1 {
+import org.w3c.dom.ls.LSOutput;
 
-    public void proveIt(){
-        System.out.println("simple void proveIt");
+public class NewClass1 {
+    public boolean proveIt(int i) {
+        System.out.println("merged proveIt");
+        return 0 <= i && i <= 9;
     }
 }
