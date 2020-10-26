@@ -2,8 +2,6 @@ package mypack.sub;
 
 public class KommandoZeilenParameter {
 
-
-
     public static void main(String[] args) {
 
         if (args.length == 0) {
