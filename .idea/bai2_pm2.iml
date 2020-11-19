@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/v2-BasisdatenTypenUndOperatoren/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v2-Precision/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v3 Kontrollstrukturen/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v1-java-vs-ruby/tests" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -71,7 +71,7 @@ public class ReadWithScanner {
             String c = sc.next();
             // Test auf Zeilenumbruch
             if (c.charAt(0) == '\n' || c.charAt(0) == '\r') {
-                System.out.println("X");
+                System.out.println("_");
             } else {
                 System.out.println(c);
             }

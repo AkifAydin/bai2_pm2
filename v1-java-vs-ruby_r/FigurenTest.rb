@@ -4,7 +4,7 @@ require "./Kreis"
 require "./Rechteck"
 require "./Ueberlagert"
 
-class FigurenTest
+class figuren.FigurenTest
   
   r1 = Rechteck.new(Punkt.new(3,3))
   r2 = Rechteck.new(Punkt.new(2.5,2.5))
