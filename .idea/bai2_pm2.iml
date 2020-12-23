@@ -10,6 +10,16 @@
       <sourceFolder url="file://$MODULE_DIR$/v2-Precision/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v3 Kontrollstrukturen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v1-java-vs-ruby/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/v7-Collection/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v7-Collection and Streams/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v7-Collection and Streams Aufgaben/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v7b Collections Und Maps Aufgaben/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v5-Zeichenketten/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v5 RegulaereAusdruecke/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v4-Arrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v5 RegulaereAusdruecke/ressources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/v5-RegulaereAusdrueckeWebseitenParsen/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v5-RegulaereAusdrueckeWebseitenParsen/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

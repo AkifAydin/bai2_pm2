@@ -133,15 +133,15 @@ public class ArrayBasicsDemo {
 		p("Alle Arrays sind  zu Object kompatibel");
 		Object o;
 		o = iAry;
-		pAry(o);
+		System.out.println(Arrays.toString((int[])o));
 		o = iWrapAry;
-		pAry(o);
+		System.out.println(Arrays.toString((Integer[])o));
 		o = oAry;
-		pAry(o);
+		System.out.println(Arrays.toString((Double[])o));
 		o = perAry;
-		pAry(o);
+		System.out.println(Arrays.toString((Person[])o));
 		o = new int[][]{{1,2},{3,4}};
-		pAry(o);
+		pAry((Object[])o);
 		
 		p("Ungeschützte Kovarianz");
 		
@@ -244,12 +244,12 @@ public class ArrayBasicsDemo {
 		p("Elementzugriff über die ersten beiden Indizes eines n-dimensionalen Arrays liefert ein Array der Dimension n-2. etc...");
 		pAry("matrix1:", matrix1);
 		pAry("matrix1[0]:",matrix1[0]);
-		pAry("matrix1[0][1]:",matrix1[0][1]);
+		System.out.println("matrix1[0][1]:"+ matrix1[0][1]);
 		
 		pAry("cube:", cube);
 		pAry("cube[0]:", cube[0]);
 		pAry("cube[0][2]:",cube[0][2]);
-		pAry("cube[1][1][1]:",cube[1][1][1]);
+		System.out.println("cube[1][1][1]:"+ cube[1][1][1]);
 		
 		p("Matrizen mit Werten füllen");
 		p("Wir weisen den Zeilen einer Matrix Werte zu, indem wir jeder Zeile ein eindimensionales Array zuweisen");

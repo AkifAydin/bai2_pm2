@@ -1,7 +1,6 @@
 package zerlegen.scanner;
 
 import static util.Printer.p;
-import static util.Printer.println;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +23,7 @@ public class ScannerSplitStringDemo {
 			allMatches.add(scanner.match());
 		}
 		printMatches(allMatches);
-		println();
+		p("");
 		
 		// Beispiel 2
 		String str2 ="b2345 %    Computer $    200 &  Drucker $ 200";

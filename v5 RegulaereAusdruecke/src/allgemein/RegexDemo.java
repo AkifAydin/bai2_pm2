@@ -1,7 +1,6 @@
 package allgemein;
 
 import static util.Printer.p;
-import static util.Printer.println;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -275,7 +274,7 @@ public class RegexDemo {
 		while (matcher.find()) {
 			p(matcher.group(1));
 		}
-		println();
+		p("");
 		String regex2 = "\\b2\\.11\\.2015\\s*,(.*?)\n";
 		matcher = Pattern.compile(regex2).matcher(calender);
 		while (matcher.find()) {

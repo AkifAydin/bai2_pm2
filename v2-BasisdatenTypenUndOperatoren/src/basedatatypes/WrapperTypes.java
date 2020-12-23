@@ -3,7 +3,7 @@ package basedatatypes;
 public class WrapperTypes {
 	public static void main(String[] args) {
 		//Integer in = new Integer(0x7fffffff);
-		Integer in = new Integer(127);
+		Integer in = Integer.valueOf(127);
 		// Groesse des Typs
 		System.out.println("size: " + Integer.SIZE);
 		// Lesen des Basisdatentypen
