@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9887a0c-c8d1-4182-a3fc-33bc03cb9c64" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>]</find>
+      <find>[</find>
+      <find>],</find>
+      <find>Object[]</find>
+      <find>&quot;</find>
+      <find>buecher</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+      <replace>Arrays.asList(</replace>
+      <replace>),</replace>
+      <replace>new O</replace>
+      <replace>new Object[]{</replace>
+      <replace>},</replace>
+      <replace>String[]</replace>
+    </replaceStrings>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1leVaxxys6G9mBvdD6CwgxlpnRH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="String&#9;FILE&#9;jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573665260692" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\birgit\Documents\HAW\vorlesungen\javaprp2\workspace\v8-Collections and Streams Bibliothek" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.hawhh.informatik.bibliothek" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\birgit\Documents\HAW\vorlesungen\javaprp2\workspace\v8-Collections and Streams Bibliothek\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BibliotheksTest">
+    <configuration name="BibliotheksLeser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.hawhh.informatik.bibliothek.BibliotheksLeser" />
+      <module name="v8-Collections and Streams Bibliothek" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BibliotheksTestHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BibliotheksTestHelper" />
+      <module name="v8-Collections and Streams Bibliothek" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BibliotheksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="v8-Collections and Streams Bibliothek" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BibliotheksTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BibliotheksLeser" />
+      <item itemvalue="Application.BibliotheksTestHelper" />
+      <item itemvalue="JUnit.BibliotheksTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BibliotheksTest" />
+        <item itemvalue="Application.BibliotheksTestHelper" />
+        <item itemvalue="Application.BibliotheksLeser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9887a0c-c8d1-4182-a3fc-33bc03cb9c64" name="Default Changelist" comment="" />
+      <created>1542284162532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542284162532</updated>
+      <workItem from="1542284166844" duration="5727000" />
+      <workItem from="1542549564373" duration="7947000" />
+      <workItem from="1542610327143" duration="13379000" />
+      <workItem from="1543318435119" duration="1540000" />
+      <workItem from="1572950697669" duration="5235000" />
+      <workItem from="1573290906636" duration="708000" />
+      <workItem from="1574146492600" duration="1312000" />
+      <workItem from="1574838901721" duration="1206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 08m 28s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 11m 07s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 11m 48s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 12m 12s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 13m 56s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 14m 47s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2018.11.19 at 11h 15m 03s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2019.11.05 at 11h 46m 12s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2019.11.05 at 11h 47m 43s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotheksTest - 2019.11.05 at 14h 52m 55s.xml">
+      <configuration name="BibliotheksTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37054000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1607963751106">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="496" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1368.882@0.0.1368.882" timestamp="1607963751106" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.5.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>v8-Collections and Streams Bibliothek</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
