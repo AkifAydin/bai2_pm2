@@ -8,7 +8,7 @@ public class Student extends Person {
 		super(vorname, name);
 		this.matnr = matnr;
 	}
-
+	
 	public int getMatnr() {
 		return matnr;
 	}
