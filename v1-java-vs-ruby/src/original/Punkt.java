@@ -1,4 +1,6 @@
-package figuren;
+package original;
+
+import java.util.Objects;
 
 public class Punkt {
 
@@ -23,6 +25,20 @@ public class Punkt {
             return Math.abs(p.y - y);
         }
         return Math.sqrt(Math.pow(p.y - y, 2) + Math.pow(p.x - x, 2));
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Punkt)) return false;
+        Punkt punkt = (Punkt) o;
+        return Double.compare(punkt.getY(), getY()) == 0 &&
+                Double.compare(punkt.getX(), getX()) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getY(), getX());
     }
 
     @Override

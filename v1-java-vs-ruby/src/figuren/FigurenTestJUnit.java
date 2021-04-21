@@ -2,6 +2,7 @@ package figuren;
 
 import org.junit.Before;
 import org.junit.Test;
+import original.Punkt;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

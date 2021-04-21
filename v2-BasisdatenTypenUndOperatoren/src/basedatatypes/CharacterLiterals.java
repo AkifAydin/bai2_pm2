@@ -15,6 +15,7 @@ public class CharacterLiterals {
         print("c3 int value : " + (int) c3);
         // arithmetische Ops
         print("c1 + 1: " + (c1 + 1));
+        print("c1 + 1: " + (char)(c1 + 1));
         print("c1 / 3: " + (c1 / 3));
         print("-c1: " + (-c1));
     }

@@ -1,5 +1,7 @@
 package figuren;
 
+import original.Punkt;
+
 public class Ueberlagert extends Figur {
 
     private Figur unten;

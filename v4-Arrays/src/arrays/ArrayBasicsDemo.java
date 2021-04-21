@@ -218,6 +218,7 @@ public class ArrayBasicsDemo {
 		ls.add("three");
 		sAry = new String[ls.size()];
 		sAry = ls.toArray(new String[0]);
+		ls.toArray(sAry); // alternativ
 		pAry(sAry);
 		
 		p("Mehrdimensionale Arrays");		
@@ -456,11 +457,11 @@ public class ArrayBasicsDemo {
 		int min = ary1.length <= ary2.length ? ary1.length : ary2.length;
 		for(int i = 0; i <min ; i++ ) {
 			if (ary1[i] < ary2[i]) { p("ary1 <=> ary2: " + -1); return;}
-			if (ary1[i] > ary2[i]) { p("ary1 <=> ary2: " + 1); return;} 
-			if (i == min && ary1.length == min) {p("ary1 <=> ary2: " + -1); return;}
-			if (i == min && ary2.length == min) {p("ary1 <=> ary2: " + 1); return;}
-		}			
-		p("ary1 <=> ary2: " + 0);		
+			if (ary1[i] > ary2[i]) { p("ary1 <=> ary2: " + 1); return;}
+		}
+		if (ary1.length < ary2.length) {p("ary1 <=> ary2: " + -1);}
+		else if (ary1.length > ary2.length) {p("ary1 <=> ary2: " + 1);}
+		else { p("ary1 <=> ary2: " + 0); }
 	}
 
 	private static int[][]  matrixMult(int[][] m1, int[][] m2) {

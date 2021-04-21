@@ -1,5 +1,7 @@
 package figuren;
 
+import original.Punkt;
+
 public class Rechteck extends Figur {
 
     private Punkt lu;

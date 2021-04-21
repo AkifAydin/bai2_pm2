@@ -17,6 +17,17 @@ public class OperatorZuweisungDemo {
         print("u -= v : " + (u -= v));
         print("u *= v : " + (u *= v));
         print("u /= v : " + (u /= v));
+
+        int i=1;
+        double d = 15.6;
+
+        i /= d;
+
+        short s1,s2;
+        s1 =12;
+        s2 =3;
+        s2 +=s1;
+
     }
 }
 

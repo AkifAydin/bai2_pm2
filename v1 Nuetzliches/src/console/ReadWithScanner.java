@@ -7,8 +7,8 @@ public class ReadWithScanner {
     public static void main(String[] args) {
         //readLinesWithScanner();
         //readAndTestTypeWithScanner();
-        //readCsv();
-        readChars();
+        readCsv();
+        //readChars();
     }
 
 
@@ -32,14 +32,14 @@ public class ReadWithScanner {
             // prüft auf long
             if (sc.hasNextLong()) {
                 long l = sc.nextLong();
-                System.out.println("long " + l);
+                System.out.println("long:" + l);
             }
             // Prüft, ob noch eine Eingabe vorhanden ist
             else if (sc.hasNext()) {
                 // Liest die Eingabe bis zum nächsten Trennzeichen
                 // Der Default für Trennzeichen sind die Leerzeichen
                 String s = sc.next();
-                System.out.println("next is " + s);
+                System.out.println("next:" + s);
                 if ("exit".equals(s)) break;
             }
         }
