@@ -4,7 +4,7 @@ public class StringBuilderPerformance {
 	public static void main(String[] args) {
 		String harmless = "harmless";
 		//int upperBound = Integer.parseInt(args[0]);
-		int start = 10000;
+		int start = 100000;
 		int iterations=5;
 		stringBuildConcatRepeat(harmless,5, start);
 		//stringBuildConcat(harmless, upperBound);

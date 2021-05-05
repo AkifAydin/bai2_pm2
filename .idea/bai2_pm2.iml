@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/v5 RegulaereAusdruecke/ressources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/v5-RegulaereAusdrueckeWebseitenParsen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v5-RegulaereAusdrueckeWebseitenParsen/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/v4-Array Aufgaben/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
