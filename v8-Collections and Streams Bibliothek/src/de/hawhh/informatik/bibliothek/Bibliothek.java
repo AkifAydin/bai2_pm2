@@ -48,7 +48,6 @@ public class Bibliothek implements Iterable<Map.Entry<String, Set<Buch>>>, Seria
     }
 
     //Methode alleBuecher(): Gibt alle Bücher der Bibliothek als Menge zurück.
-    //Methode alleBuecher(): Gibt alle Bücher der Bibliothek als Menge zurück.
 
     public Set<Buch> alleBuecher1() {
         HashSet<Buch> alle = new HashSet<>();
@@ -65,7 +64,10 @@ public class Bibliothek implements Iterable<Map.Entry<String, Set<Buch>>>, Seria
     }
 
     public Set<Buch> alleBuecher3() {
-        return bestand.values().stream().flatMap(Set::stream).collect(Collectors.toSet());
+        return bestand.values()
+                .stream()
+                .flatMap(Set::stream)
+                .collect(Collectors.toSet());
     }
 
 

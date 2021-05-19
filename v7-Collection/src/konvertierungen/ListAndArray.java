@@ -17,6 +17,7 @@ public class ListAndArray {
 	private static void listAndArray() {
 		List<String> lst = Arrays.asList(new String[] { "eins", "zwei", "drei" });
 		Object[] objs = lst.toArray();
+		//Integer[] integers =  (Integer[])lst.toArray(); // ClassCastException
 		String[] strings = lst.toArray(new String[] {});
 		System.out.println("lst:" + lst);
 		System.out.println("objs: " + objs);
