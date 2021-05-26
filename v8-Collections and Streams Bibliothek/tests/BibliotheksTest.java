@@ -13,7 +13,7 @@ import java.util.stream.StreamSupport;
 
 public class BibliotheksTest {
 
-    private static final String RESSOURCE_PREFIX = "out/production/v8-Collections and Streams Bibliothek/";
+    private static final String RESSOURCE_PREFIX = "classes/production/bai2_pm2/";
     private static final String BIBLIOTHEKS_DATEN = "bibliotheksDaten";
 
     private Bibliothek biblioBinaerGelesen = new Bibliothek("TINY LIB");

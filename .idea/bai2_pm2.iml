@@ -24,6 +24,8 @@
       <sourceFolder url="file://$MODULE_DIR$/v7 Collections Vorlesung SoSe 2021/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v8-Collections and Streams Bibliothek/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/v8-Collections and Streams Bibliothek/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/v8-Collections and Streams Bibliothek/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/v8-Generics/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

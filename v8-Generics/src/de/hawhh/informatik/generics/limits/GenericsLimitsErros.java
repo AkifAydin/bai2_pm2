@@ -1,6 +1,5 @@
 package de.hawhh.informatik.generics.limits;
 import de.hawhh.informatik.generics.node.Node;
-import generics.node.*;
 
 public class GenericsLimitsErros {
 	

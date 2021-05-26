@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class BibliotheksLeser {
-    private static final String RESSOURCE_PREFIX = "out/production/v8-Collections and Streams Bibliothek/";
+    private static final String RESSOURCE_PREFIX = "classes/production/bai2_pm2/";
     private static final String EMPTY_LINE = "\\s*";
 
     private String uri;

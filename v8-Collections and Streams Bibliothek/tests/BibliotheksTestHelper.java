@@ -10,7 +10,7 @@ public class BibliotheksTestHelper {
     public static void main(String[] args) throws IOException {
         BibliotheksLeser bl = new BibliotheksLeser("buecher");
 
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("resources/bibliotheksDaten"))
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("classes/production/bai2_pm2/bibliotheksDaten"))
             ) {
             List<Buch> buecher = bl.leseBuecher();
             System.out.println(buecher);
