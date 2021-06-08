@@ -67,7 +67,7 @@ public class Liste<T> implements Iterable<T> {
         Typsicher: Upper Typebound auf der Typvariable U <U extends T> stellt sicher,
         dass die Elemente in uAry kompatibel zu den Elementen der Liste (this) sind.
      */
-    public <U  extends T> Liste<T> concat2(U[] uAry) {
+    public <U extends T> Liste<T> concat2(U[] uAry) {
         for (U u: uAry)
             this.add(u);
         return this;

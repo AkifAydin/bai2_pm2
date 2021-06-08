@@ -1,25 +1,29 @@
 package de.hawhh.informatik.generics.motivation.liste;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
-public class NichtGenerischeListe {
+public class MyListe<E> implements Iterable<E> {
+
     private int n;
-    private Object[] intern = new Object[1];
+    private E[] intern = (E[])new Object[1];
+
     public int size(){return n;}
+
     public boolean isEmpty(){return size()==0;}
 
-    public void add(Object e) {
+    public void add(E e) {
         if (n==intern.length)
             resize(2*n);
         intern[n++]=e;
     }
 
-    public Object get(int index){
+    public E get(int index){
         checkIndex(index);
         return intern[index];
     }
 
-    public void set(int index, Object e){
+    public void set(int index, E e){
         checkIndex(index);
         intern[index] = e;
     }
@@ -39,5 +43,24 @@ public class NichtGenerischeListe {
     @Override
     public String toString() {
         return Arrays.deepToString(intern);
+    }
+
+
+    @Override
+    public Iterator<E> iterator() {
+        return new MyListeIterator();
+    }
+
+    private class MyListeIterator implements Iterator<E> {
+
+        @Override
+        public boolean hasNext() {
+            return false;
+        }
+
+        @Override
+        public E next() {
+            return null;
+        }
     }
 }

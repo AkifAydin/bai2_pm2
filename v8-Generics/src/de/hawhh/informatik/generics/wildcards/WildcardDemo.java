@@ -65,7 +65,7 @@ public class WildcardDemo {
 		
 		// nsn kompatibel zu
 		nsn = new Node<Object>(34);
-		
+
 		// nsn nicht kompatibel zu 
 		// Node<Integer> / Node<String>
 		// Compilerfehler Number kein

@@ -1,13 +1,19 @@
 package de.hawhh.informatik.generics.motivation.liste;
 
+import java.util.ArrayList;
+
 public class ListeClient {
 
     public static void main(String[] args) {
-        Liste<Integer> il = new Liste<Integer>();
+
+        MyListe<Integer> il = new MyListe<>();
         Integer[] ai = {1, 4, 5, 6, 93, 4, 5, 7};
         for (Integer i : ai) {
             il.add(i);
         }
+//        il.add("22");
+//        il.add(Long.MAX_VALUE);
+//        il.add(2.3);
 
         System.out.println(il);
         int sum = 0;
