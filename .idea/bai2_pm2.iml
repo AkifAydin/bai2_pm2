@@ -26,6 +26,9 @@
       <sourceFolder url="file://$MODULE_DIR$/v8-Collections and Streams Bibliothek/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/v8-Collections and Streams Bibliothek/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/v8-Generics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v8-Klassen Typen Interfaces/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v13-AssertionsUndExceptions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/v13-AssertionsUndExceptions/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

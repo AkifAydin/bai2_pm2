@@ -82,7 +82,10 @@ public class Bibliothek implements Iterable<Map.Entry<String,Set<Buch>>> {
                 .entrySet()
                 .stream()
                 .map( entry -> Map.entry(entry.getKey(),
-                        entry.getValue().stream().sorted(Comparator.comparing(Buch::getTitel)).collect(Collectors.toList())))
+                        entry.getValue()
+                                .stream()
+                                .sorted(Comparator.comparing(Buch::getTitel))
+                                .collect(Collectors.toList())))
                 .sorted(Comparator.comparing(Map.Entry::getKey) )
                 .collect(Collectors.toList());
     }
